@@ -38,5 +38,5 @@ RUN yum update -y; yum install -y  coreutils ttf-dejavu fontconfig bash nodejs y
 #    sh /tmp/linux-install-1.10.3.814.sh ; \
      yum clean all; yum makecache
 
-RUN    yarn config set registry https://registry.npm.taobao.org
+#RUN    yarn config set registry https://registry.npm.taobao.org
 CMD ["/bin/sh"] 
